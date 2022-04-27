@@ -1,0 +1,72 @@
+/* seletor tag*/
+
+body {
+  text-align: center;
+  background-color: #eadce7;
+  font-family: Zapf-Chancery;
+}
+header {
+  color: #4d0038;
+  /* primeiro parametro eixo x se anda pra direita é positivo se andar para a esquerda é negativo*/
+  /* o segundo parametro eixo y um valor negativo vai para cima e um valor positivo vai para baixo */
+  /* o terceiro parametro determina a intensidade quanto maior mais esfumaçado*/
+  text-shadow: 4px 4px 10px #f3ecec;
+}
+/* seletor filho direto*/
+header > img {
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px #f5f5f5;
+}
+
+/* seletor classe*/
+
+.container{
+  background-image: linear-gradient(to left, #540d59, #b3a2b1);
+
+  /* começa pelo topo, direita, inferior, e equerda
+  TOP. RIGHT, BOTTOM, LEFT*/
+  /* TOP e BOTTOM | RIGHT e Left*/
+  margin: 30px 50px;
+  /* espaçamento interno*/
+  
+  padding: 30px 50px;
+  border-radius: 10px;
+  
+}
+section{ 
+  background-color: #997a95;
+  margin-top:10px;
+  margin-right:20px;
+  margin-bottom:20px;
+  margin-left:20px;
+  padding: 30px;
+  text-align: left;
+
+  font-style: italic;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px #b3a2b1;
+  
+}
+footer{
+  text-align: center;
+  background-color:  #997a95;
+  box-shadow: 5px 5px 20px #b3a2b1;
+  padding: 20px;
+  margin: 0px 20px;
+  border-radius: 10px;
+}
+footer li{
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+}
+
+i{
+  font-size: 48px !important;
+  
+}
+
+a{
+  text-decoration: none;
+}
